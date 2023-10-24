@@ -8,3 +8,6 @@ var closeBtn = document.querySelector('.close-btn');
 menuBtn.addEventListener('click', () =>{
     menu.classList.add('active');
 }); 
+closeBtn.addEventListener('click',()=>{
+    menu.classList.remove('active'); 
+}) 
