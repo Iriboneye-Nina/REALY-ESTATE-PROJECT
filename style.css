@@ -19,10 +19,11 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 100px;
 }
 .section-main h1{
-    color: rgba(255,255,255,0.5);
-    font-size: 40px;
+    color: blue;
+    font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -41,7 +42,7 @@ nav{
     transition: 0.6s;
 }
 nav .sticky{  
-    background: #143051;
+    background: #0a6fe2;
     padding: 15px 100px;
 }
 nav .logo{
@@ -73,7 +74,7 @@ nav .menu a:hover{
     color: #0000;
     background: #fff;
 }
-nav .btn{
+nav .btn{ 
     color: #fff;
     font-size: 25px;
     cursor: pointer;
@@ -86,8 +87,8 @@ nav .btn{
 }
 .section-about h2{
     color: rgba(255,0,0,0,0.5);
-    font-size: 100px;
-    font-weight: 400;
+    font-size: 70px;
+    font-weight: 80;
     text-transform: uppercase;
 }
  .section-about p{
@@ -123,6 +124,12 @@ nav .btn{
        font-size: 20px;
        margin: 20px;
        padding: 0 15px; 
+    }
+}
+@media (max-width: 630px){
+    .section-main h1{
+        font-size: 50px;
+        line-height: 60px;
     }
 }
  
